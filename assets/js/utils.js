@@ -1,11 +1,11 @@
 export function appendStudent(data, targetElement) {
-	consol.log('data', data);
+	console.log('data', data);
 	let listItem = document.createElement('a');
 
 	listItem.href = '';
 	listItem.classList.add('list-group-item');
 	listItem.innerText =  `${data.lastname} ${data.firstname}`;
-	listItem.setAttribute
+	// listItem.setAttribute
 
-	targetElement.appendChild(lastItem)
+	targetElement.appendChild(listItem)
 }
